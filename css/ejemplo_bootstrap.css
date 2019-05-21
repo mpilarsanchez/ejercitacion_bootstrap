@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header.manin-header {
+  background: #2C3E50;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 1.4em;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255, 255, 255, .1);
+  background-color: #18BC9C;
+}
+
+section.freelance {
+  background: #18BC9C;
+}
+
+section.freelance img {
+  margin: 0 auto;
+}
+
+.bg-dark {
+  background-color: #2C3E50 !important;
+}
+
+.location {
+  background-color: #2C3E50;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3em;
+}
+
+.about {
+  background: #18BC9C;
+}
+
+.copyright {
+  background: :#343a40;
+}
+
+.btn-default{
+  background:#18BC9C;
+}
+
+hr{
+  background: white;
+  height: 2px;
+  width: 80%;
+}
+/*
+
+a. Colores:
+i. Azul → #2C3E50
+ii. Verde → #18BC9C
+b. Tipografías:
+i. Títulos → Montserrat
+ii. Párrafos y demás → Lato
+*/
+
+
+
+@media (min-width: 576px) and (max-width: 991px) {
+
+  article img{
+    position: relative;
+    float: left;
+    width: 48%;
+    margin: 1%;
+  }
+
+  section {
+    display: block;
+    overflow: hidden;
+}
+ }
+
+ @media (min-width: 992px) and (max-width: 1200px) {
+
+   article img{
+     position: relative;
+     float: left;
+     width: 30%;
+     margin: 1%;
+   }
+
+   section {
+     display: block;
+     overflow: hidden;
+ }
+  }
